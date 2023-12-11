@@ -1,0 +1,58 @@
+body{
+
+    
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenu{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.ecran{
+    font-size: 30px;
+    height: 90px;
+    
+    border-radius: 20px;
+    margin: 17px;
+    position: relative;
+    left: 13px;
+    background-color: rgba(188, 128, 244, 0.279);
+    color: black;
+
+
+}
+.boutton{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 15px;
+    
+}
+input[type="button"]{
+    height:70px;
+    width: 70px;
+
+    background-color: rgba(188, 128, 244, 0.279);
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+input[type="text"]{
+    display: flex;
+    justify-content: center;
+    color: rgb(50, 3, 56);
+}
+input[type="button"]:hover{
+    transform: scale(1.2);
+}
